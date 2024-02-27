@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="i belive.jpg" />
+    <None Remove="photo_2024-01-21_00-08-58.jpg" />
+    <None Remove="пукикаки.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="photo_2024-01-21_00-08-58.jpg" />
+    <Resource Include="пукикаки.jpg" />
+  </ItemGroup>
+
+</Project>
